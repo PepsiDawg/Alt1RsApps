@@ -1,0 +1,16 @@
+{
+	"appName": "Clue Tracker",
+	"description": "Tracking clue related things",
+	"appUrl": "/app/",
+	"configUrl": "/app/appconfig.json",
+	"iconUrl": "/resources/icon.png",
+	"defaultWidth": 300,
+	"defaultHeight": 300,
+	"minWidth": 200,
+	"minHeight": 200,
+	"maxWidth": 1000,
+	"maxHeight": 1000,
+	"requestHandlers": [ ],
+	"activators": [ ],
+	"permissions": ""
+}

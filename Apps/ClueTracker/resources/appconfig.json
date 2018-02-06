@@ -1,9 +1,9 @@
 {
 	"appName": "Clue Tracker",
 	"description": "Tracking clue related things",
-	"appUrl": "/PepsiDawg/Alt1RsApps/Apps/ClueTracker",
-	"configUrl": "/PepsiDawg/Alt1RsApps/Apps/ClueTracker/resources/appconfig.json",
-	"iconUrl": "/PepsiDawg/Alt1RsApps/Apps/ClueTracker/icon.png",
+	"appUrl": "/Alt1RsApps/Apps/ClueTracker",
+	"configUrl": "/Alt1RsApps/Apps/ClueTracker/resources/appconfig.json",
+	"iconUrl": "/Alt1RsApps/Apps/ClueTracker/resources/icon.png",
 	"defaultWidth": 300,
 	"defaultHeight": 300,
 	"minWidth": 200,

@@ -53,9 +53,10 @@ function changeVars() {
 }
 
 function read() {
-  let img = testImg//a1lib.bindfullrs();
+  let img = a1lib.bindfullrs();
+  console.log(img);
 
-  let buffer = img.toData(this.pos.x + xOff,this.pos.y + yOff, subW, subH);
+  let buffer = testImg;//img.toData(this.pos.x + xOff,this.pos.y + yOff, subW, subH);
   console.log(buffer);
   console.log(buffer.toImage());
   document.querySelector("#screencap").appendChild(buffer.toImage());

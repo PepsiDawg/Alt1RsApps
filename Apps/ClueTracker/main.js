@@ -23,7 +23,6 @@ function recordData() {
   });
 }
 
-
 function find(toFind) {
   let img = a1lib.bindfullrs();
 

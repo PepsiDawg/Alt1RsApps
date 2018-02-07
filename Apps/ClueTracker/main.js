@@ -40,6 +40,7 @@ function read() {
 
   let buffer = img.toData(this.pos.x,this.pos.y, 300, 200);
   console.log(buffer);
+  console.log(buffer.toImage());
 }
 
 

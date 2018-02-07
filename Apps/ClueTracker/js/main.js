@@ -1,3 +1,3 @@
 function start() {
-  a1lib.identifyUrl("appconfig.json");
+  a1lib.identifyUrl("../resources/appconfig.json");
 }

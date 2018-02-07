@@ -1,2 +1,2 @@
 # Alt1 Runescape Apps
-alt1://addapp/https://github.com/PepsiDawg/Alt1RsApps/blob/master/Apps/ClueTracker/appconfig.json
+alt1://addapp/https://pepsidawg.github.io/Alt1RsApps/Apps/ClueTracker/appconfig.json

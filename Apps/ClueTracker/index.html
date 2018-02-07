@@ -4,18 +4,28 @@
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  <link rel="stylesheet" href="css/style.css">
   <script src="https://runeapps.org/imagedetect.js"></script>
   <script src="https://runeapps.org/runeappslib.js"></script>
   <script src="https://runeapps.org/alt1lib.js"></script>
+  <script src="testInput.js"></script>
   <script src="main.js"></script>
   <title>Clue Tracker</title>
 </head>
 <body onload="start();">
   <h1>Hello World</h1>
   <strong>7</strong>
-  <img src="resources/icon.png" alt="" srcset="">
+  <img src="resources/icon.png">
   <div id="testing">Hello </div>
-  <button onclick="recordData()">Record</button>
+  <form id="form">
+    <input type="text" placeholder="X Offset">
+    <input type="text" placeholder="Y Offset">
+    <input type="text" placeholder="Width">
+    <input type="text" placeholder="Height">
+    <button type="button" onclick="changeVars()">Change</button>
+  </form><br />
+  <img src="resources/ClueTest.png" id="testScreen"><br />
+  <button onclick="recordData()">Record</button><br />
   <div id="screencap"></div>
 </body>
 </html>

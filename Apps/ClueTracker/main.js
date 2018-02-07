@@ -1,5 +1,8 @@
+let testImg = null;
+
 function start() {
   a1lib.identifyUrl("appconfig.json");
+  testImg = getTestInput();
 }
 
 function getTrailImg() {
@@ -24,7 +27,7 @@ function recordData() {
 }
 
 function find(toFind) {
-  let img = a1lib.bindfullrs();
+  let img = testImg//a1lib.bindfullrs();
 
   var poslist = a1lib.findsubimg(img, toFind);
   if(poslist.length > 0) {
@@ -35,10 +38,24 @@ function find(toFind) {
   }
 }
 
-function read() {
-  let img = a1lib.bindfullrs();
+let xOff = 0,
+    yOff = 0,
+    subW = 300,
+    subH = 200;
 
-  let buffer = img.toData(this.pos.x,this.pos.y, 300, 200);
+function changeVars() {
+    let form = document.querySelector('#form');
+    xOff = form["0"].value;
+    yOff = form["1"].value;
+    subW = form["2"].value;
+    subH = form["3"].value;
+    console.log("Changed values to xOff:" + xOff  + " yOff:" + yOff + " width:" + subW + " height:" + subH)
+}
+
+function read() {
+  let img = testImg//a1lib.bindfullrs();
+
+  let buffer = img.toData(this.pos.x + xOff,this.pos.y + yOff, subW, subH);
   console.log(buffer);
   console.log(buffer.toImage());
   document.querySelector("#screencap").appendChild(buffer.toImage());

@@ -1,9 +1,9 @@
 {
 	"appName": "Clue Tracker",
 	"description": "Tracking clue related things",
-	"appUrl": "/app/",
-	"configUrl": "/app/appconfig.json",
-	"iconUrl": "/resources/icon.png",
+	"appUrl": "/Alt1RsApps/Apps/ClueTracker/",
+	"configUrl": "/Alt1RsApps/Apps/ClueTracker/appconfig.json",
+	"iconUrl": "/Alt1RsApps/Apps/ClueTracker/icon.png",
 	"defaultWidth": 300,
 	"defaultHeight": 300,
 	"minWidth": 200,

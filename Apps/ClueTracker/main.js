@@ -26,7 +26,7 @@ function recordData() {
 function find(toFind) {
   let img = a1lib.bindfullrs();
 
-  var poslist = a1lib.findSubimg(img, toFind);
+  var poslist = a1lib.findsubimg(img, toFind);
   if(poslist.length > 0) {
     this.pos = poslist[0];
     return true;
